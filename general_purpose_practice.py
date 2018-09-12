@@ -24,7 +24,7 @@ for city in usa_sorted:
 	print city
 
 print 2
-asia_cities = []		
+asia_cities = []			
 for countries, cities in locations['Asia'].iteritems():
 	city_country = cities[0] + " - " + countries
 	asia_cities.append(city_country)
